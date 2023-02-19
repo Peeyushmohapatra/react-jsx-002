@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.App{
+  background-color: rgb(255,90,95);
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Manincontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+}
+
+.Firstdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heading{
+  font-size: 70px;
+  font-weight: bold;
+  font-family:sans-serif;
+}
